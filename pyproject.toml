@@ -1,0 +1,13 @@
+[project]
+name = "pos"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi==0.115.6",
+  "uvicorn==0.32.1",
+  "pydantic==2.10.3",
+  "pydantic-settings==2.6.1",
+  "psycopg[binary]==3.2.3",
+]
+
+# uv supports installing from this file via "uv pip install -r pyproject.toml"
