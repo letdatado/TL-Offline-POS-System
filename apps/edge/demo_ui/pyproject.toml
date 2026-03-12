@@ -1,0 +1,8 @@
+[project]
+name = "pos-demo-ui"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+  "streamlit==1.42.0",
+  "requests==2.32.3",
+]
